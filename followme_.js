@@ -18,6 +18,10 @@ function setup() {
   }
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
   background(51, 0, 102);
   fill(204, 255, 153);
